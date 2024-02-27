@@ -1,0 +1,129 @@
+.App{
+    text-align: center;
+    background-color: #394867;
+
+   
+  }
+  .App-header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: cal(10px+2vmin);
+  }
+  .Wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  .Ingredient{
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    transition: 0.3s;
+    background-color: #F1F6F9;
+  
+  }
+  /* .Ingredient:hover{
+    width: 160px;
+    height: 210px;
+  
+  } */
+  .Ingredient img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  .Ingredient p{
+    margin: 0;
+    font-size: 15px;
+  }
+  .Ingredient span{
+    font-size: 22px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  .Steps{
+    overflow-y: scroll;
+    position: relative;
+    top: 15px;
+    visibility: hidden;
+    color: black;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: system-ui;
+    list-style-position: inside;
+  }
+  
+  .Ingredient:hover .Steps{
+    visibility: initial;
+    
+    opacity: 1;
+  }
+  .InputWrapper input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.5);
+  }
+  
+  .InputWrapper{
+  
+    
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .InputWrapper button{
+    border-radius: 8px;
+      border: 3px solid #0e0e0e;
+      padding: 0.6em 1.2em;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: inherit;
+      height: 50px;
+      cursor: pointer;
+      width: auto;
+    }
+    .InputWrapper button:hover{
+      color: black;
+    }
+    .Recepie-name{
+      height: auto;
+      margin-bottom: 30px;
+      font-family: system-ui;
+      letter-spacing: 1px;
+    }
+    .list{
+        
+            list-style-position: inside;
+          
+     }
+     .load{
+        color: white;
+        font-size: 30px;
+        font-family: system-ui;
+        letter-spacing: 4px;
+        font-weight: bold;
+
+     }
+    
+    
+    /* .Steps li{
+      /* display: inline;
+    } */
